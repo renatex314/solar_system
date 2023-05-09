@@ -47,7 +47,7 @@ const addPostProcessing = (composer: EffectComposer): void => {
         new THREE.Vector2(
             window.innerWidth, window.innerHeight
         ),
-        2, 1, 0
+        2, -1, 0
     );
     composer.addPass(renderPass);
     composer.addPass(bloomPass);
