@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "isolatedModules": true,
+        "useDefineForClassFields": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
